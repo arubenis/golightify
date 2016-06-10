@@ -76,6 +76,7 @@ type LightifyRequest_ListAllLightsResLight struct {
 	Color    LightifyRGB
 	U3       byte
 	Name     LightifyString16
+	U4       [8]byte
 }
 
 type LightifyRequest_ListAllLightsRes struct {
